@@ -1,1 +1,50 @@
 
+# Manual Test Cases – Demo Website (SauceDemo)
+
+## TC-01: Login with valid credentials
+
+**Steps**
+1. Open https://www.saucedemo.com
+2. Enter valid username (standard_user)
+3. Enter valid password (secret_sauce)
+4. Click “Login”
+
+**Expected Result**
+User should be successfully logged into the homepage.
+
+---
+
+## TC-02: Login with invalid password
+
+**Steps**
+1. Open https://www.saucedemo.com
+2. Enter valid username (standard_user)
+3. Enter invalid password (wrong_pass)
+4. Click “Login”
+
+**Expected Result**
+An error message should be shown: “Username and password do not match.”
+
+---
+
+## TC-03: Add item to cart
+
+**Steps**
+1. Login with valid credentials
+2. On products page, click “Add to Cart” on the first item
+3. Go to Cart page
+
+**Expected Result**
+The selected product should be visible in the cart.
+
+---
+
+## TC-04: Remove item from cart
+
+**Steps**
+1. Add item to cart
+2. Go to Cart
+3. Click “Remove”
+
+**Expected Result**
+The cart should be empty.
